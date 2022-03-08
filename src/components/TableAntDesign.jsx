@@ -34,8 +34,11 @@ const TableAntDesign = () => {
               });
             }}
           >
-            {warehouses.map((warehouse, index) => (
-              <Select.Option value={warehouse.loadingPointName} key={index}>
+            {warehouses.map(warehouse => (
+              <Select.Option
+                value={warehouse.loadingPointName}
+                key={warehouse.id}
+              >
                 {warehouse.loadingPointName}
               </Select.Option>
             ))}
@@ -63,8 +66,11 @@ const TableAntDesign = () => {
               });
             }}
           >
-            {warehouses.map((warehouse, index) => (
-              <Select.Option value={warehouse.loadingPointName} key={index}>
+            {warehouses.map(warehouse => (
+              <Select.Option
+                value={warehouse.loadingPointName}
+                key={warehouse.id}
+              >
                 {warehouse.loadingPointName}
               </Select.Option>
             ))}
