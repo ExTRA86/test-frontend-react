@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## Тестовое задание на должность React-разработчик
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stack: React, Redux-Saga, AntDesign, Leaflet
 
 ## Available Scripts
 

@@ -1,0 +1,86 @@
+import warehouses from './warehouses';
+
+const orders = [
+  {
+    key: '1',
+    name: 'Заявка 1',
+    loadingPoint: warehouses[0].loadingPoint,
+    loadingPointName: warehouses[0].loadingPointName,
+    unloadingPoint: warehouses[1].loadingPoint,
+    unloadingPointName: warehouses[1].loadingPointName,
+  },
+  {
+    key: '2',
+    name: 'Заявка 2',
+    loadingPoint: warehouses[1].loadingPoint,
+    loadingPointName: warehouses[1].loadingPointName,
+    unloadingPoint: warehouses[6].loadingPoint,
+    unloadingPointName: warehouses[6].loadingPointName,
+  },
+  {
+    key: '3',
+    name: 'Заявка 3',
+    loadingPoint: warehouses[4].loadingPoint,
+    loadingPointName: warehouses[4].loadingPointName,
+    unloadingPoint: warehouses[7].loadingPoint,
+    unloadingPointName: warehouses[7].loadingPointName,
+  },
+  {
+    key: '4',
+    name: 'Заявка 4',
+    loadingPoint: warehouses[3].loadingPoint,
+    loadingPointName: warehouses[3].loadingPointName,
+    unloadingPoint: warehouses[1].loadingPoint,
+    unloadingPointName: warehouses[1].loadingPointName,
+  },
+  {
+    key: '5',
+    name: 'Заявка 5',
+    loadingPoint: warehouses[7].loadingPoint,
+    loadingPointName: warehouses[7].loadingPointName,
+    unloadingPoint: warehouses[2].loadingPoint,
+    unloadingPointName: warehouses[2].loadingPointName,
+  },
+  {
+    key: '6',
+    name: 'Заявка 6',
+    loadingPoint: warehouses[7].loadingPoint,
+    loadingPointName: warehouses[7].loadingPointName,
+    unloadingPoint: warehouses[5].loadingPoint,
+    unloadingPointName: warehouses[5].loadingPointName,
+  },
+  {
+    key: '7',
+    name: 'Заявка 7',
+    loadingPoint: warehouses[3].loadingPoint,
+    loadingPointName: warehouses[3].loadingPointName,
+    unloadingPoint: warehouses[4].loadingPoint,
+    unloadingPointName: warehouses[4].loadingPointName,
+  },
+  {
+    key: '8',
+    name: 'Заявка 8',
+    loadingPoint: warehouses[7].loadingPoint,
+    loadingPointName: warehouses[7].loadingPointName,
+    unloadingPoint: warehouses[3].loadingPoint,
+    unloadingPointName: warehouses[3].loadingPointName,
+  },
+  {
+    key: '9',
+    name: 'Заявка 9',
+    loadingPoint: warehouses[6].loadingPoint,
+    loadingPointName: warehouses[6].loadingPointName,
+    unloadingPoint: warehouses[5].loadingPoint,
+    unloadingPointName: warehouses[5].loadingPointName,
+  },
+  {
+    key: '10',
+    name: 'Заявка 10',
+    loadingPoint: warehouses[1].loadingPoint,
+    loadingPointName: warehouses[1].loadingPointName,
+    unloadingPoint: warehouses[7].loadingPoint,
+    unloadingPointName: warehouses[7].loadingPointName,
+  },
+];
+
+export default orders;

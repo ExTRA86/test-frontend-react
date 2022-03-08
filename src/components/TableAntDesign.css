@@ -1,0 +1,9 @@
+@import 'antd/dist/antd.css';
+
+.ant-table-tbody > tr.ant-table-row:hover > td {
+  background: none !important;
+}
+
+.table-row-active {
+  background-color: #7ac3ff;
+}
